@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+        int a, b;
+
+        scanf ("%d %d", &a, &b);
+
+        printf ("soma: %d", a + b);
+        printf ("subtração: %d", a - b);
+        printf ("multiplicação: %d", a * b);
+        printf ("divisão: %d", a / b);
+        printf ("modulo: %d", a % b);
+
+        return 0;
+}
